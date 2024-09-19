@@ -1,12 +1,15 @@
-import HeroSection from "./components/HeroSection"
-import Navbar from "./components/Navbar"
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className='overflow-x-hidden bg-black tracking-tighter text-gray-200 antialiased'>
-      <Navbar />
-      <HeroSection />
-    </main>
+    <div className="relative h-full overflow-y-hidden antialiased">
+      <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img"></div>
+      <div className="relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
+        <Hero />
+        <Navbar />
+      </div>
+    </div>
   )
 }
 
