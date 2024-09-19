@@ -22,19 +22,23 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  { label: "Projects", href: "#projects" },
-  { label: "Bio", href: "#bio" },
-  { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "Projetos", href: "#projects" },
+  { label: "Habilidades", href: "#skills" },
+  { label: "Experiência Prática", href: "#work" },
+  { label: "Educação", href: "#education" },
+  { label: "Contato", href: "#contact" },
 ];
 
 export const HERO = {
-  name: "CARL FRANK",
-  greet: "Hello there! 👋🏻",
-  description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+  name: "LUI LOUREIRO",
+  greet: "Olá, Tudo bem? 👋🏻",
+  description: (
+    <>
+    Sou Lui Loureiro, desenvolvedor full-stack com foco em Python e Machine Learning.
+    Minha paixão é transformar desafios complexos em soluções eficientes, seja desenvolvendo aplicações robustas ou criando modelos de IA que agreguem valor aos negócios.
+    Se procura um profissional comprometido e sempre em busca de resultados, vamos conversar! 🚀
+  </>
+  )
 };
 
 export const PROJECTS = [
