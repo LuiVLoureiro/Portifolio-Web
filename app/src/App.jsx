@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import EducationSection from "./components/EducationSection";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <WorkExperience />
         <EducationSection />
         <ContactForm />
+        <Footer />
       </div>
     </div>
   )
